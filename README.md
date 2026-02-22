@@ -26,7 +26,7 @@ outputs = { self, nixpkgs, power-schedule, ... }: {
 };
 ```
 
-### Without fFlakes
+### Without Flakes
 
 If you are not using flakes, you can import the module directly in your `configuration.nix` using `fetchTarball`:
 
